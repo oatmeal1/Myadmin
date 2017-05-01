@@ -10,6 +10,7 @@
 
 #include"stdafx.h"
 
+
 //数据源全局变量
 CString	g_dbSource, g_dbUse, g_dbpw;
 
