@@ -145,6 +145,7 @@ void KeyMng_Log(const char *file, int line, int level, int status, const char *f
     va_start(args, fmt);
     ITCAST_Error_Core(file, line, level, status, fmt, args);
     va_end(args);
+	
     
     return ;
 }
